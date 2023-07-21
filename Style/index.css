@@ -1,0 +1,108 @@
+*{
+    font-family:cursive;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.r{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 900px;
+    
+}
+nav{
+    background-image: url(https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt16a0bad340d4fa1c/5f3ae1c31340d47a564b5e71/KDA-Web-EventPage-Header_1600x556_01.jpg);
+    padding: 10px;
+    font-size: large;
+    margin: auto;
+	margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 960px;
+    
+}
+a{
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.Sera{
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/08/27/15985541572756.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.l{
+    width: 200px;
+    border-radius: 200px;
+    
+}
+#Musa{
+    
+    height: 560px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255)
+}
+
+.History{
+    background-image: url(https://notagamer.net/wp-content/uploads/2020/08/KDA-Returns-with-a-Brand-New-Single-22THE-BADDEST22.jpg);
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+
+}
+img { 
+    border-radius: 60px;
+}
+.t{
+    opacity: 10;
+    margin-top: 30px;
+    gap: 100px;
+    display: flex;
+    width: 700px;
+    height: 300px;
+    border-radius: 40px;
+    opacity: 2;
+    padding: 50px;
+}
+.t img{
+    border-radius: 40px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .5s ease;
+}
+.t img:hover{
+    transform: scale(1.4);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/aa675c116578815.Y3JvcCwxNzE4LDEzNDMsMCw2MTY.png);
+    border-radius: 60px;
+    padding: -70px;
+    cursor: cell;
+    width: 90px;
+    filter: contrast(120%);
+}
+header{
+    background-color: black;
+}
+.o{
+    font-size: larger;
+}
